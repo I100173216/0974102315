@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的第一個網頁</title>
+
+    <style>
+
+img {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+      .card {
+      background-color: white;
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px gray;
+}
+
+        body {
+            background-color: lightyellow;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="card">
+<img src="https://via.placeholder.com/150" alt="圖片">
+
+    <h1>吳育修</h1>
+
+    <p>我會SOLIDWORKS機械繪圖</p>
+
+    <p>目前正在學習網頁程式</p>
+
+<button onclick="changeText()">了解更多</button>
+
+<p id="text">點擊按鈕看更多內容</p>
+
+<script>
+function changeText() {
+    document.getElementById("text").innerHTML = "可接遠端機械繪圖與網站製作";
+}
+
+</script>
+
+
+<div>
+</body>
+</html>
