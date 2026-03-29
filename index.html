@@ -2,84 +2,86 @@
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>紅髮吳育修｜機械繪圖接案</title>
 
 <style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f5f5f5;
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+color:#222;
 }
 
-header {
-  background: linear-gradient(135deg, #c0392b, #e74c3c);
-  color: white;
-  text-align: center;
-  padding: 50px 20px;
+header{
+background:linear-gradient(135deg,#c0392b,#e74c3c);
+color:white;
+text-align:center;
+padding:60px 20px;
 }
 
-section {
-  background: white;
-  margin: 20px;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+header h1{font-size:42px;margin:0;}
+header p{margin:10px 0;}
+
+.btn{
+display:inline-block;
+background:#fff;
+color:#c0392b;
+padding:12px 18px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
 }
 
-h2 {
-  border-left: 5px solid #c0392b;
-  padding-left: 10px;
+.btn:hover{opacity:0.9;}
+
+section{
+background:white;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+max-width:1000px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+h2{
+border-left:5px solid #c0392b;
+padding-left:10px;
 }
 
-.card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
 }
 
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+.card{
+border:1px solid #eee;
+border-radius:10px;
+overflow:hidden;
+background:white;
 }
 
-.card-content {
-  padding: 10px;
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
 }
 
-.btn {
-  display: inline-block;
-  background: #c0392b;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
+.card div{padding:10px;}
+
+.price{
+background:#fafafa;
+padding:15px;
+border-radius:10px;
+margin:10px 0;
 }
 
-.btn:hover {
-  background: #e74c3c;
-}
-
-.contact {
-  font-weight: bold;
-}
-.price-box {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 10px;
-  background: #f9f9f9;
-}
-
-.price-box h3 {
-  margin: 0 0 5px 0;
-  color: #333;
+footer{
+text-align:center;
+padding:30px;
+color:#777;
 }
 </style>
 </head>
@@ -88,187 +90,51 @@ h2 {
 
 <header>
 <h1>紅髮吳育修</h1>
-
-<p>機械繪圖接案｜SOLIDWORKS / AutoCAD / 3D建模</p>
-
-<p>
-🚀 快速理解需求並出圖<br>
-📐 可加工級精度圖面<br>
-💬 遠端溝通、快速修改<br>
-</p>
-
-<a class="btn" href="mailto:i10017321612371001@gmail.com">
-👉 立即聯絡我（免費討論需求）
-</a>
+<p>機械繪圖｜3D建模｜SOLIDWORKS / AutoCAD</p>
+<p>快速出圖・可加工設計・遠端接案</p>
+<a class="btn" href="https://line.me/ti/p/0974102315">立即聯絡 LINE</a>
 </header>
 
 <section>
 <h2>👨‍🔧 關於我</h2>
-<p>
-我專注於機械繪圖與3D建模，熟悉 SOLIDWORKS 與 AutoCAD，
-能快速理解需求並完成圖面設計。
-</p>
+<p>專注機械繪圖與3D建模，提供可加工等級圖面與快速修改服務。</p>
 </section>
 
 <section>
 <h2>📁 作品展示</h2>
-
-<p>
-📌 已完成多項機械繪圖與3D建模作品，可快速配合需求修改。
-</p>
-
-<div class="projects">
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202026-03-17%20162229.png">
-<div class="card-content">
-<strong>支架設計</strong><br>
-✔ 可加工使用<br>
-✔ 結構穩定<br>
-✔ 可調整
-</div>
-</div>
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202024-06-08%20111403.png">
-<div class="card-content">
-<strong>機構零件圖</strong><br>
-✔ 精準標註<br>
-✔ 可直接加工
-</div>
-</div>
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-03-20%20162201.png">
-<div class="card-content">
-<strong>3D建模</strong><br>
-✔ SOLIDWORKS建模<br>
-✔ 展示用途
-</div>
-</div>
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202026-03-25%20083926.png">
-<div class="card-content">
-<strong>3D建模</strong><br>
-✔ 結構設計<br>
-✔ 可修改
-</div>
-</div>
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202026-03-25%20084016.png">
-<div class="card-content">
-<strong>3D建模</strong><br>
-✔ 工程建模<br>
-✔ 組裝用途
-</div>
-</div>
-
-<div class="card">
-<img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202026-03-26%20093711.png">
-<div class="card-content">
-<strong>3D建模</strong><br>
-✔ SOLIDWORKS<br>
-✔ 快速修改
-</div>
-</div>
-
+<div class="grid">
+<div class="card"><img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202026-03-17%20162229.png"><div>支架設計</div></div>
+<div class="card"><img src="https://raw.githubusercontent.com/I100173216/0974102315/main/螢幕擷取畫面%202024-06-08%20111403.png"><div>機構零件</div></div>
+<div class="card"><img src="https://raw.githubusercontent.com/I100173216/0974102315/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-03-20%20162201.png"><div>3D建模</div></div>
 </div>
 </section>
 
 <section>
-<h2>🛠️ 接案服務</h2>
-<p>
-✔ 2D / 3D機械繪圖<br>
-✔ SOLIDWORKS建模<br>
-✔ 組裝設計<br>
-✔ 圖面修改
-</p>
+<h2>🛠️ 服務內容</h2>
+<p>2D工程圖｜3D建模｜機構設計｜圖面修改</p>
 </section>
+
 <section>
-<h2>💰 服務價格參考</h2>
-
-<div class="price-box">
-  <h3>🔹 2D工程圖</h3>
-  <p>NT$ 800 ～ 1500 / 張</p>
-  <p>✔ 尺寸標註<br>✔ 工程規格圖<br>✔ 可供加工使用</p>
-</div>
-
-<div class="price-box">
-  <h3>🔹 3D建模（SOLIDWORKS）</h3>
-  <p>NT$ 1500 ～ 3000 / 件</p>
-  <p>✔ 零件建模<br>✔ 修改調整<br>✔ STL / STEP 輸出</p>
-</div>
-
-<div class="price-box">
-  <h3>🔹 組裝圖 / 機構設計</h3>
-  <p>NT$ 2500 ～ 5000 / 專案</p>
-  <p>✔ 組裝結構設計<br>✔ 干涉檢查<br>✔ 工程拆解圖</p>
-</div>
-
-<p style="margin-top:10px;">
-📩 實際價格依難度調整，可先免費討論需求
-</p>
+<h2>💰 價格參考</h2>
+<div class="price">2D工程圖：500～1000</div>
+<div class="price">3D建模：800～2000</div>
+<div class="price">機構設計：1500～3500</div>
 </section>
+
 <section>
-<h2>⭐ 為什麼選擇我</h2>
-
-<p>
-✔ 熟悉 SOLIDWORKS / AutoCAD<br>
-✔ 能快速理解需求<br>
-✔ 可遠端溝通（Email）<br>
-✔ 可直接提供加工圖面<br>
-✔ 修改速度快<br>
-</p>
+<h2>⭐ 專案經驗</h2>
+<p>50+ 機械建模專案｜可加工設計｜快速交付</p>
 </section>
-<section style="text-align:center; padding:20px;">
-<h2>🚀 想快速開始專案？</h2>
-<p>可直接 LINE 或填表單，我會在 24 小時內回覆</p>
 
-<a class="btn" href="https://line.me/ti/p/0974102315" target="_blank">
-💬 立即用 LINE 聯絡
-</a>
+<section style="text-align:center;">
+<h2>🚀 立即開始</h2>
+<p>LINE 快速溝通，24小時內回覆</p>
+<a class="btn" href="https://line.me/ti/p/0974102315">加 LINE 接案</a>
 </section>
-<section>
-<h2>📞 聯絡我</h2>
 
-<p class="contact">
-📧 Email：i10017321612371001@gmail.com<br>
-💬 LINE：點下方按鈕聯絡
-</p>
+<footer>
+© 2026 紅髮吳育修｜機械繪圖接案
+</footer>
 
-<a class="btn" href="mailto:i10017321612371001@gmail.com">
-📩 直接寄信聯絡我
-</a>
-
-<a class="btn" href="https://line.me/ti/p/0974102315" target="_blank">
-💬 加我 LINE（快速討論）
-</a>
-</section><style>
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-</style>
-<section>
-<h2>📝 接案需求表單</h2>
-
-<form action="https://formsubmit.co/i10017321612371001@gmail.com" method="POST">
-<input type="hidden" name="_captcha" value="false">
-  <p>你的姓名：</p>
-  <input type="text" name="name" placeholder="請輸入姓名">
-
-<input type="email" name="email" placeholder="請輸入Email">
-
-<textarea name="message" rows="5" placeholder="請描述你的需求"></textarea>
-
-  <br><br>
-  <button class="btn" type="submit">送出需求</button>
-</form>
-</section>
 </body>
 </html>
