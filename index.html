@@ -7,39 +7,74 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.8;
       margin: 0;
-      padding: 0;
       background-color: #f5f5f5;
     }
 
     header {
-      background-color: #c0392b;
+      background: linear-gradient(135deg, #c0392b, #e74c3c);
       color: white;
-      padding: 40px 20px;
       text-align: center;
+      padding: 50px 20px;
     }
 
     section {
       background: white;
       margin: 20px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      border-left: 5px solid #c0392b;
+      padding-left: 10px;
     }
 
-    .project {
-      margin-bottom: 15px;
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 10px;
     }
 
     .contact {
       font-size: 18px;
       font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #c0392b;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #e74c3c;
     }
   </style>
 </head>
@@ -56,29 +91,42 @@
   <h2>👨‍🔧 關於我</h2>
   <p>
     我專注於機械繪圖與3D建模，熟悉 SOLIDWORKS 與 AutoCAD，
-    能快速理解需求並完成圖面設計。
+    能快速理解需求並完成高品質圖面。
   </p>
 </section>
 
 <section>
   <h2>📁 作品展示</h2>
 
-  <div class="project">
-    <strong>作品1：支架設計</strong><br>
-    使用：SOLIDWORKS<br>
-    說明：可調角度、結構穩定
-  </div>
+  <div class="projects">
 
-  <div class="project">
-    <strong>作品2：機構零件圖</strong><br>
-    使用：AutoCAD<br>
-    說明：精準尺寸標註，符合加工需求
-  </div>
+    <div class="card">
+      <img src="https://github.com/I100173216/0974102315/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-03-20%20162201.png">
+      <div class="card-content">
+        <strong>支架設計</strong><br>
+        SOLIDWORKS<br>
+        穩定結構 / 可調角度
+      </div>
+    </div>
 
-  <div class="project">
-    <strong>作品3：3D建模</strong><br>
-    使用：SOLIDWORKS<br>
-    說明：快速建模，可用於展示與開發
+    <div class="card">
+      <img src="https://github.com/I100173216/0974102315/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-03-25%20081549.png">
+      <div class="card-content">
+        <strong>機構零件圖</strong><br>
+        AutoCAD<br>
+        精準標註 / 可加工
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://github.com/I100173216/0974102315/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-03-25%20083926.png">
+      <div class="card-content">
+        <strong>3D建模</strong><br>
+        SOLIDWORKS<br>
+        快速建模 / 展示用
+      </div>
+    </div>
+
   </div>
 
 </section>
@@ -101,12 +149,12 @@
 <section>
   <h2>📞 聯絡我</h2>
   <p class="contact">
-    Email：i10017321612371001@gmail.com<br>
-    GitHub：<br>
-    <a href="https://i100173216.github.io/0974102315/" target="_blank">
-      點我查看網站
-    </a>
+    Email：i10017321612371001@gmail.com
   </p>
+
+  <a class="btn" href="mailto:i10017321612371001@gmail.com">
+    📩 直接寄信聯絡我
+  </a>
 </section>
 
 </body>
